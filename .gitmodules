@@ -1,3 +1,6 @@
 [submodule "DataProcessorService"]
 	path = DataProcessorService
 	url = https://github.com/Code-Nine-FTC/DataProcessorService
+[submodule "WeatherDataService"]
+	path = WeatherDataService
+	url = https://github.com/Code-Nine-FTC/WeatherDataService
