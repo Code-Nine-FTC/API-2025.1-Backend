@@ -82,6 +82,7 @@ jobs:
           pip install -r requirements.txt
           ruff format .
           ruff check .
+          mypy .
           pytest --cov=app
 
       - name: Instalar dependências e rodar testes - WeatherDataService
@@ -93,6 +94,7 @@ jobs:
           pip install -r requirements.txt
           ruff format .
           ruff check .
+          mypy .
           pytest --cov=app
 
       - name: Instalar dependências e rodar testes - SharedDatabaseService
@@ -104,4 +106,5 @@ jobs:
           pip install -r requirements.txt
           ruff format .
           ruff check .
+          mypy .
           pytest --cov=app
